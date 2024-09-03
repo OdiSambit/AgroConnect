@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Profile - AgroConnect</title>
+    <link rel="stylesheet" href="stylin.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AgroConnect</div>
+            <ul>
+                <li><a href="profile.html" class="active">Profile</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="index.html" class="cta-button">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-header">
+            <img src="https://kj1bcdn.b-cdn.net/media/77950/dwasvbcfx.jpg" alt="Farmer John" class="profile-picture">
+            <h1>Farmer Sampurna Devi</h1>
+            <p>Corn and Soybean Specialist</p>
+        </section>
+
+        <section class="farm-info">
+            <h2>Farm Information</h2>
+            <p><strong>Location:</strong>Odisha,India</p>
+            <p><strong>Farm Size:</strong> 20 acres</p>
+            <p><strong>Crops:</strong> Corn, Soybeans, Wheat</p>
+        </section>
+
+        <section class="activities">
+            <h2>Recent Activities</h2>
+            <ul id="activity-list">
+                <!-- Activities will be populated by JavaScript -->
+            </ul>
+        </section>
+
+        <section class="crop-status">
+            <h2>Current Crop Status</h2>
+            <div class="crop-grid">
+                <div class="crop-item">
+                    <h3>Corn</h3>
+                    <p>Growth Stage: Tasseling</p>
+                    <p>Health: Excellent</p>
+                </div>
+                <div class="crop-item">
+                    <h3>Soybeans</h3>
+                    <p>Growth Stage: Flowering</p>
+                    <p>Health: Good</p>
+                </div>
+                <div class="crop-item">
+                    <h3>Wheat</h3>
+                    <p>Growth Stage: Harvested</p>
+                    <p>Yield: 60 bushels/acre</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="weather-forecast">
+            <h2>Weather Forecast</h2>
+            <div id="weather-container">
+                <!-- Weather data will be populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>We provide help and support to the farmers.</p>
+    </footer>
+
+    <script src="scriptin.js"></script>
+</body>
+</html>
